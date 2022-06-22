@@ -1,0 +1,22 @@
+# Phase 1
+
+import numpy as np
+x = np.zeros((10, 10))
+x[7,9] = 1
+x[7,8] = 1
+x[7,7] = 1
+x[8,7] = 1
+print(x)
+
+start = x[0,0]
+end = x[9,9]
+
+for i in range (10):
+    new = x[i,i]
+    return new
+
+if new == 1:
+
+
+# Phase 2
+
